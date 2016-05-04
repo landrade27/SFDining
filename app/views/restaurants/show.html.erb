@@ -1,0 +1,74 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @restaurant.name %>
+</p>
+
+<p>
+  <strong>Neighborhood:</strong>
+  <%= @restaurant.neighborhood %>
+</p>
+
+<p>
+  <strong>Cuisine:</strong>
+  <%= @restaurant.cuisine %>
+</p>
+
+<p>
+  <strong>Private dining:</strong>
+  <%= @restaurant.private_dining %>
+</p>
+
+<p>
+  <strong>Chefs table:</strong>
+  <%= @restaurant.chefs_table %>
+</p>
+
+<p>
+  <strong>Min people:</strong>
+  <%= @restaurant.min_people %>
+</p>
+
+<p>
+  <strong>Max people:</strong>
+  <%= @restaurant.max_people %>
+</p>
+
+<p>
+  <strong>Buyout:</strong>
+  <%= @restaurant.buyout %>
+</p>
+
+<p>
+  <strong>Buyout price:</strong>
+  <%= @restaurant.buyout_price %>
+</p>
+
+<p>
+  <strong>Contact name:</strong>
+  <%= @restaurant.contact_name %>
+</p>
+
+<p>
+  <strong>Contact number:</strong>
+  <%= @restaurant.contact_number %>
+</p>
+
+<p>
+  <strong>Contact email:</strong>
+  <%= @restaurant.contact_email %>
+</p>
+
+<p>
+  <strong>Valet:</strong>
+  <%= @restaurant.valet %>
+</p>
+
+<p>
+  <strong>Full bar:</strong>
+  <%= @restaurant.full_bar %>
+</p>
+
+<%= link_to 'Edit', edit_restaurant_path(@restaurant) %> |
+<%= link_to 'Back', restaurants_path %>

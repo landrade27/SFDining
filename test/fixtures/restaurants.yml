@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  neighborhood: MyString
+  cuisine: MyString
+  private_dining: false
+  chefs_table: false
+  min_people: 1
+  max_people: 1
+  buyout: false
+  buyout_price: MyString
+  contact_name: MyString
+  contact_number: MyString
+  contact_email: MyString
+  valet: false
+  full_bar: false
+
+two:
+  name: MyString
+  neighborhood: MyString
+  cuisine: MyString
+  private_dining: false
+  chefs_table: false
+  min_people: 1
+  max_people: 1
+  buyout: false
+  buyout_price: MyString
+  contact_name: MyString
+  contact_number: MyString
+  contact_email: MyString
+  valet: false
+  full_bar: false
