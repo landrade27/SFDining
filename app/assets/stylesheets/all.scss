@@ -1,0 +1,18 @@
+h1 {
+	color: #51519E;
+}
+
+p {
+	color: #3C7AB3;
+}
+
+.linkabc {
+	color: #949292;
+	background-color: #f3efef;
+	font-size: 20px;
+
+	&:hover {
+		color: #FF0066;
+		background-color: #F3EFEF;
+	}
+}
